@@ -1,0 +1,46 @@
+{
+  "P1": { "NLB": 20, "NLBIN": 20, "NMD": 42 },
+  "P2": {
+    "LBI": [ 1,  2,  3, 4, 5, 6, 7,   8,  9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+    "MPI": [11, 10, 12, 6, 8, 9, 23, 22, 24, 18, 20, 21, 35, 34, 36, 30, 32, 33, 38, 39],
+    "RPCI": []
+  },
+  "P3": {
+    "MDI": [1, 2, 3, 4, 5, 6, 7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42],
+    "MPI": [8, 46, 3, 4, 5, 6, 7, 9, 10, 42, 43, 44, 45, 20, 51, 15, 16, 17, 18, 19, 21, 22, 47, 48, 49, 50, 32, 56, 27, 28, 29, 30, 31, 33, 34, 52, 53, 54, 55, 39, 40, 41],
+    "LBI": []
+  },
+  "JKY": {
+  "JKA":[ 
+
+  ["Ex_IK_Mb1", ["Ar"], ["VFD"]],
+  ["Ex_IK_DIE1", ["Tr"], ["VFDTrip"]],
+  ["Ex_IK_Mb2", ["Mb"], ["Rhr","P","V","Fr","I"]],
+  ["Ex_IK_DIE2", ["St"], ["VFDAM","VFDRun"]],
+  ["Ex_IK_DIE3", ["Sw"], ["VFDAuto","VFDMan","VFDMode","VFDBypass"]],
+  ["Ex_CK_Mb1", ["Ar"], ["VFD"]],
+  ["Ex_CK_DIE1", ["Tr"], ["VFDTrip"]],
+  ["Ex_CK_Mb2", ["Mb"], ["Rhr","P","V","Fr","I"]],
+  ["Ex_CK_DIE2", ["St"], ["VFDAM","VFDRun"]],
+  ["Ex_CK_DIE3", ["Sw"], ["VFDAuto","VFDMan","VFDMode","VFDBypass"]],
+  ["FA_SKY_Mb1", ["Ar"], ["VFD"]],
+  ["FA_SKY_DIE1", ["Tr"], ["VFDTrip"]],
+  ["FA_SKY_Mb2", ["Mb"], ["Rhr","P","V","Fr","I"]],
+  ["FA_SKY_DIE2", ["St"], ["VFDAM","VFDRun"]],
+  ["FA_SKY_DIE3", ["Sw"], ["VFDAuto","VFDMan","VFDMode","VFDBypass"]],
+  ["CT_DG_DIE1",  ["St"],["DG1"]],
+  ["CT_DG_DIE2", ["Sw"],["DG1Auto","DG1Man"]]
+  ]
+  },
+  "JKC": { "JKH": "properties", "EKS": "DKEY" },
+  "NTC": {
+    "IP": "18.191.222.62",
+    "PT": "1234",
+    "CI": "Lucas",
+    "SN": [1],
+    "MI": ["GWAY01"],
+    "MT": ["GWAY"],
+    "DI": "GW01"
+  },
+  "MST": { "PRF": 0 }
+}

@@ -1,0 +1,51 @@
+{
+  "P1": { "NLB": 12, "NLBIN": 12, "NMD": 21 },
+  "P2": {
+    "LBI": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11,12],
+    "MPI": [2, 3, 4, 5, 16, 15, 17, 11, 12, 13],
+    "RPCI": [1,2]
+  },
+  "P3": {
+    "MDI": [
+      1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,21
+    ],
+    "MPI": [
+      4, 5, 13, 24, 8, 9, 10, 11, 12, 3, 14, 15, 18, 19, 25, 20, 21, 22, 23
+    ],
+    "LBI": [11,12]
+  },
+  "JKY": {
+    "JKA": [
+      ["AHU_RL_AIE1", ["Vol"], ["Th1_ChW_Fb_V"]],
+      ["AHU_RL_AIE2", ["DegC"], ["RAT"]],
+      ["AHU_RL_Mb1", ["Ar"], ["VFD"]],
+      ["AHU_RL_DIE1", ["Tr"], ["VFDTrip"]],
+      ["AHU_RL_Mb2", ["Hour"], ["VFD_Rhr"]],
+      ["AHU_RL_Mb3", ["Watt"], ["VFD_P"]],
+      ["AHU_RL_Mb4", ["Vol"], ["VFD_V"]],
+      ["AHU_RL_Mb5", ["Hz"], ["VFD_Fr"]],
+      ["AHU_RL_Mb6", ["Amps"], ["VFD_I"]],
+      ["AHU_RL_AIE3", ["Fb"], ["ChW_Val"]],
+      [
+        "AHU_RL_DIE2",
+        ["St"],
+        ["VFDAM", "VFDRun", "ChwValAuto", "ChwValMan", "VFDCont"]
+      ],
+      ["AHU_RL_DIE3", ["Sw"], ["VFDAuto", "VFDMan", "VFDMode", "VFDBypass"]],
+      ["AHU_RL_DIE4", ["Set"], ["Spt","VALV"]]
+
+    ]
+  },
+  "JKC": { "JKH": "properties", "EKS": "DKEY" },
+  
+  "NTC": {
+    "IP": "18.191.222.62",
+    "PT": "1234",
+    "CI": "Lucas",
+    "SN": [1],
+    "MI": ["GWAY01"],
+    "MT": ["GWAY"],
+    "DI": "GW01"
+  },
+  "MST": { "PRF": 0 }
+}
