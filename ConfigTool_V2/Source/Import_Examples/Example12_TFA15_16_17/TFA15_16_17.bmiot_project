@@ -1,0 +1,1400 @@
+{
+  "version": "1.0",
+  "project": {
+    "name": "TFA_15_16_17_Example",
+    "baud_rate": 19200,
+    "data_format": "8E1",
+    "profile": 0,
+    "devices": [
+      {
+        "name": "TFA15",
+        "slaves": [
+          {
+            "modbus_id": 1,
+            "registers": [
+              {
+                "name": "OFF",
+                "address": 1,
+                "fc": 1,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": false,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "ON",
+                "address": 2,
+                "fc": 1,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": false,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "Trip",
+                "address": 3,
+                "fc": 1,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": false,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "Fire",
+                "address": 4,
+                "fc": 1,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": false,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "AutoManual",
+                "address": 5,
+                "fc": 1,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": false,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "DPS",
+                "address": 6,
+                "fc": 1,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": false,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "Fire_Pu",
+                "address": 7,
+                "fc": 1,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": false,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "Fire_damp",
+                "address": 8,
+                "fc": 1,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": false,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "ENAB_Fb",
+                "address": 301,
+                "fc": 2,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": true,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "Fan_Fb",
+                "address": 4067,
+                "fc": 2,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": true,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "Valve_Fb",
+                "address": 1561,
+                "fc": 3,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": true,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "EC_Fan_Fb",
+                "address": 1562,
+                "fc": 3,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": false,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "ENAB_W",
+                "address": 301,
+                "fc": 5,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": true,
+                "link_b_reg_idx": 8
+              },
+              {
+                "name": "Valve_W",
+                "address": 4066,
+                "fc": 6,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": true,
+                "link_b_reg_idx": 10
+              },
+              {
+                "name": "Fan_W",
+                "address": 4067,
+                "fc": 6,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": true,
+                "link_b_reg_idx": 9
+              }
+            ]
+          },
+          {
+            "modbus_id": 2,
+            "registers": [
+              {
+                "name": "RA_H",
+                "address": 1561,
+                "fc": 3,
+                "fmt": 3,
+                "mlt": 0.1,
+                "needs_lbi_slot": false,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "RA_T",
+                "address": 1562,
+                "fc": 3,
+                "fmt": 3,
+                "mlt": 0.01,
+                "needs_lbi_slot": false,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "SAT_T",
+                "address": 1563,
+                "fc": 3,
+                "fmt": 3,
+                "mlt": 0.1,
+                "needs_lbi_slot": false,
+                "link_b_reg_idx": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "TFA16",
+        "slaves": [
+          {
+            "modbus_id": 3,
+            "registers": [
+              {
+                "name": "OFF",
+                "address": 1,
+                "fc": 1,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": false,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "ON",
+                "address": 2,
+                "fc": 1,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": false,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "Trip",
+                "address": 3,
+                "fc": 1,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": false,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "Fire",
+                "address": 4,
+                "fc": 1,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": false,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "AutoManual",
+                "address": 5,
+                "fc": 1,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": false,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "DPS",
+                "address": 6,
+                "fc": 1,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": false,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "Fire_Pu",
+                "address": 7,
+                "fc": 1,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": false,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "Fire_damp",
+                "address": 8,
+                "fc": 1,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": false,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "ENAB_Fb",
+                "address": 301,
+                "fc": 2,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": true,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "Fan_Fb",
+                "address": 4067,
+                "fc": 2,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": true,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "Valve_Fb",
+                "address": 1561,
+                "fc": 3,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": true,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "EC_Fan_Fb",
+                "address": 1562,
+                "fc": 3,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": false,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "ENAB_W",
+                "address": 301,
+                "fc": 5,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": true,
+                "link_b_reg_idx": 26
+              },
+              {
+                "name": "Valve_W",
+                "address": 4066,
+                "fc": 6,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": true,
+                "link_b_reg_idx": 28
+              },
+              {
+                "name": "Fan_W",
+                "address": 4067,
+                "fc": 6,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": true,
+                "link_b_reg_idx": 27
+              }
+            ]
+          },
+          {
+            "modbus_id": 4,
+            "registers": [
+              {
+                "name": "RA_H",
+                "address": 1561,
+                "fc": 3,
+                "fmt": 3,
+                "mlt": 0.1,
+                "needs_lbi_slot": false,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "RA_T",
+                "address": 1562,
+                "fc": 3,
+                "fmt": 3,
+                "mlt": 0.01,
+                "needs_lbi_slot": false,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "SAT_T",
+                "address": 1563,
+                "fc": 3,
+                "fmt": 3,
+                "mlt": 0.1,
+                "needs_lbi_slot": false,
+                "link_b_reg_idx": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "TFA17",
+        "slaves": [
+          {
+            "modbus_id": 5,
+            "registers": [
+              {
+                "name": "OFF",
+                "address": 1,
+                "fc": 1,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": false,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "ON",
+                "address": 2,
+                "fc": 1,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": false,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "Trip",
+                "address": 3,
+                "fc": 1,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": false,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "Fire",
+                "address": 4,
+                "fc": 1,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": false,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "AutoManual",
+                "address": 5,
+                "fc": 1,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": false,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "DPS",
+                "address": 6,
+                "fc": 1,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": false,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "Fire_Pu",
+                "address": 7,
+                "fc": 1,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": false,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "Fire_damp",
+                "address": 8,
+                "fc": 1,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": false,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "ENAB_Fb",
+                "address": 301,
+                "fc": 2,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": true,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "Fan_Fb",
+                "address": 4067,
+                "fc": 2,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": true,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "Valve_Fb",
+                "address": 1561,
+                "fc": 3,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": true,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "EC_Fan_Fb",
+                "address": 1562,
+                "fc": 3,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": false,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "ENAB_W",
+                "address": 301,
+                "fc": 5,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": true,
+                "link_b_reg_idx": 44
+              },
+              {
+                "name": "Valve_W",
+                "address": 4066,
+                "fc": 6,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": true,
+                "link_b_reg_idx": 46
+              },
+              {
+                "name": "Fan_W",
+                "address": 4067,
+                "fc": 6,
+                "fmt": 3,
+                "mlt": 1.0,
+                "needs_lbi_slot": true,
+                "link_b_reg_idx": 45
+              }
+            ]
+          },
+          {
+            "modbus_id": 6,
+            "registers": [
+              {
+                "name": "RA_H",
+                "address": 1561,
+                "fc": 3,
+                "fmt": 3,
+                "mlt": 0.1,
+                "needs_lbi_slot": false,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "RA_T",
+                "address": 1562,
+                "fc": 3,
+                "fmt": 3,
+                "mlt": 0.01,
+                "needs_lbi_slot": false,
+                "link_b_reg_idx": null
+              },
+              {
+                "name": "SAT_T",
+                "address": 1563,
+                "fc": 3,
+                "fmt": 3,
+                "mlt": 0.1,
+                "needs_lbi_slot": false,
+                "link_b_reg_idx": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cloud_groups": [
+      {
+        "cluster_name": "TFA15_DIE1",
+        "keys": [
+          "St"
+        ],
+        "equipment_names": [
+          "OFF",
+          "ON",
+          "Trip",
+          "Fire",
+          "A/M",
+          "DPS",
+          "Fire_Pu",
+          "Fire_damp",
+          "EC_Fan"
+        ],
+        "source_type": "modbus",
+        "reg_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "nvs_slot_indices": []
+      },
+      {
+        "cluster_name": "TFA15_AIE1",
+        "keys": [
+          "Fb"
+        ],
+        "equipment_names": [
+          "Valve",
+          "EC_Fan"
+        ],
+        "source_type": "modbus",
+        "reg_indices": [
+          10,
+          11
+        ],
+        "nvs_slot_indices": []
+      },
+      {
+        "cluster_name": "TFA15_DOE1",
+        "keys": [
+          "St"
+        ],
+        "equipment_names": [
+          "EC_Fan_Enable"
+        ],
+        "source_type": "modbus",
+        "reg_indices": [
+          8
+        ],
+        "nvs_slot_indices": []
+      },
+      {
+        "cluster_name": "TFA15_AIE2",
+        "keys": [
+          "RH"
+        ],
+        "equipment_names": [
+          "RA_H"
+        ],
+        "source_type": "modbus",
+        "reg_indices": [
+          15
+        ],
+        "nvs_slot_indices": []
+      },
+      {
+        "cluster_name": "TFA15_AIE3",
+        "keys": [
+          "DegC"
+        ],
+        "equipment_names": [
+          "RA_T",
+          "SAT_T"
+        ],
+        "source_type": "modbus",
+        "reg_indices": [
+          16,
+          17
+        ],
+        "nvs_slot_indices": []
+      },
+      {
+        "cluster_name": "TFA16_DIE1",
+        "keys": [
+          "St"
+        ],
+        "equipment_names": [
+          "OFF",
+          "ON",
+          "Trip",
+          "Fire",
+          "A/M",
+          "DPS",
+          "Fire_Pu",
+          "Fire_damp",
+          "EC_Fan"
+        ],
+        "source_type": "modbus",
+        "reg_indices": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          27
+        ],
+        "nvs_slot_indices": []
+      },
+      {
+        "cluster_name": "TFA16_AIE1",
+        "keys": [
+          "Fb"
+        ],
+        "equipment_names": [
+          "Valve",
+          "EC_Fan"
+        ],
+        "source_type": "modbus",
+        "reg_indices": [
+          28,
+          29
+        ],
+        "nvs_slot_indices": []
+      },
+      {
+        "cluster_name": "TFA16_DOE1",
+        "keys": [
+          "St"
+        ],
+        "equipment_names": [
+          "EC_Fan_Enable"
+        ],
+        "source_type": "modbus",
+        "reg_indices": [
+          26
+        ],
+        "nvs_slot_indices": []
+      },
+      {
+        "cluster_name": "TFA16_AIE2",
+        "keys": [
+          "RH"
+        ],
+        "equipment_names": [
+          "RA_H"
+        ],
+        "source_type": "modbus",
+        "reg_indices": [
+          33
+        ],
+        "nvs_slot_indices": []
+      },
+      {
+        "cluster_name": "TFA16_AIE3",
+        "keys": [
+          "DegC"
+        ],
+        "equipment_names": [
+          "RA_T",
+          "SAT_T"
+        ],
+        "source_type": "modbus",
+        "reg_indices": [
+          34,
+          35
+        ],
+        "nvs_slot_indices": []
+      },
+      {
+        "cluster_name": "TFA17_DIE1",
+        "keys": [
+          "St"
+        ],
+        "equipment_names": [
+          "OFF",
+          "ON",
+          "Trip",
+          "Fire",
+          "A/M",
+          "DPS",
+          "Fire_Pu",
+          "Fire_damp",
+          "EC_Fan"
+        ],
+        "source_type": "modbus",
+        "reg_indices": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          45
+        ],
+        "nvs_slot_indices": []
+      },
+      {
+        "cluster_name": "TFA17_AIE1",
+        "keys": [
+          "Fb"
+        ],
+        "equipment_names": [
+          "Valve",
+          "EC_Fan"
+        ],
+        "source_type": "modbus",
+        "reg_indices": [
+          46,
+          47
+        ],
+        "nvs_slot_indices": []
+      },
+      {
+        "cluster_name": "TFA17_DOE1",
+        "keys": [
+          "St"
+        ],
+        "equipment_names": [
+          "EC_Fan_Enable"
+        ],
+        "source_type": "modbus",
+        "reg_indices": [
+          44
+        ],
+        "nvs_slot_indices": []
+      },
+      {
+        "cluster_name": "TFA17_AIE2",
+        "keys": [
+          "RH"
+        ],
+        "equipment_names": [
+          "RA_H"
+        ],
+        "source_type": "modbus",
+        "reg_indices": [
+          51
+        ],
+        "nvs_slot_indices": []
+      },
+      {
+        "cluster_name": "TFA17_AIE3",
+        "keys": [
+          "DegC"
+        ],
+        "equipment_names": [
+          "RA_T",
+          "SAT_T"
+        ],
+        "source_type": "modbus",
+        "reg_indices": [
+          52,
+          53
+        ],
+        "nvs_slot_indices": []
+      }
+    ],
+    "nvs_slots": [],
+    "network": {
+      "ip": "18.191.222.62",
+      "port": "1234",
+      "client_id": "Lucas",
+      "slave_numbers": [
+        1
+      ],
+      "machine_ids": [
+        "GWAY01"
+      ],
+      "machine_types": [
+        "GWAY"
+      ],
+      "device_id": "GW01"
+    },
+    "lua_config": {
+      "enabled": true,
+      "fb_timeout": 5000,
+      "script_version": "v1.0",
+      "device_aliases": [
+        {
+          "name": "TFA15_Act",
+          "index": 1
+        },
+        {
+          "name": "TFA15_FAN",
+          "index": 2
+        },
+        {
+          "name": "TFA15_ENAB",
+          "index": 1
+        },
+        {
+          "name": "TFA16_Act",
+          "index": 1
+        },
+        {
+          "name": "TFA16_FAN",
+          "index": 2
+        },
+        {
+          "name": "TFA16_ENAB",
+          "index": 1
+        },
+        {
+          "name": "TFA17_Act",
+          "index": 1
+        },
+        {
+          "name": "TFA17_FAN",
+          "index": 2
+        },
+        {
+          "name": "TFA17_ENAB",
+          "index": 1
+        }
+      ],
+      "role_constants": [
+        {
+          "name": "Write",
+          "value": 1
+        },
+        {
+          "name": "Stat",
+          "value": 2
+        },
+        {
+          "name": "Keys",
+          "value": 3
+        }
+      ],
+      "clusters": [
+        {
+          "name": "Valve1",
+          "entries": [
+            {
+              "device_alias": "TFA15_Act",
+              "role_name": "Write",
+              "register_ref": {
+                "slave_id": 1,
+                "address": 4066,
+                "fc": 6
+              },
+              "key_display": "TFA15_Act"
+            },
+            {
+              "device_alias": "TFA15_Act",
+              "role_name": "Stat",
+              "register_ref": {
+                "slave_id": 1,
+                "address": 1561,
+                "fc": 3
+              },
+              "key_display": "TFA15_Act"
+            },
+            {
+              "device_alias": "TFA15_Act",
+              "role_name": "Keys",
+              "register_ref": null,
+              "key_display": "TFA15_Act"
+            },
+            {
+              "device_alias": "TFA15_FAN",
+              "role_name": "Write",
+              "register_ref": {
+                "slave_id": 1,
+                "address": 4067,
+                "fc": 6
+              },
+              "key_display": "TFA15_FAN"
+            },
+            {
+              "device_alias": "TFA15_FAN",
+              "role_name": "Stat",
+              "register_ref": {
+                "slave_id": 1,
+                "address": 4067,
+                "fc": 2
+              },
+              "key_display": "TFA15_FAN"
+            },
+            {
+              "device_alias": "TFA15_FAN",
+              "role_name": "Keys",
+              "register_ref": null,
+              "key_display": "TFA15_FAN"
+            }
+          ]
+        },
+        {
+          "name": "PPM1",
+          "entries": [
+            {
+              "device_alias": "TFA15_ENAB",
+              "role_name": "Write",
+              "register_ref": {
+                "slave_id": 1,
+                "address": 301,
+                "fc": 5
+              },
+              "key_display": "TFA15_ENAB"
+            },
+            {
+              "device_alias": "TFA15_ENAB",
+              "role_name": "Stat",
+              "register_ref": {
+                "slave_id": 1,
+                "address": 301,
+                "fc": 2
+              },
+              "key_display": "TFA15_ENAB"
+            },
+            {
+              "device_alias": "TFA15_ENAB",
+              "role_name": "Keys",
+              "register_ref": null,
+              "key_display": "TFA15_ENAB"
+            }
+          ]
+        },
+        {
+          "name": "Valve2",
+          "entries": [
+            {
+              "device_alias": "TFA16_Act",
+              "role_name": "Write",
+              "register_ref": {
+                "slave_id": 3,
+                "address": 4066,
+                "fc": 6
+              },
+              "key_display": "TFA16_Act"
+            },
+            {
+              "device_alias": "TFA16_Act",
+              "role_name": "Stat",
+              "register_ref": {
+                "slave_id": 3,
+                "address": 1561,
+                "fc": 3
+              },
+              "key_display": "TFA16_Act"
+            },
+            {
+              "device_alias": "TFA16_Act",
+              "role_name": "Keys",
+              "register_ref": null,
+              "key_display": "TFA16_Act"
+            },
+            {
+              "device_alias": "TFA16_FAN",
+              "role_name": "Write",
+              "register_ref": {
+                "slave_id": 3,
+                "address": 4067,
+                "fc": 6
+              },
+              "key_display": "TFA16_FAN"
+            },
+            {
+              "device_alias": "TFA16_FAN",
+              "role_name": "Stat",
+              "register_ref": {
+                "slave_id": 3,
+                "address": 4067,
+                "fc": 2
+              },
+              "key_display": "TFA16_FAN"
+            },
+            {
+              "device_alias": "TFA16_FAN",
+              "role_name": "Keys",
+              "register_ref": null,
+              "key_display": "TFA16_FAN"
+            }
+          ]
+        },
+        {
+          "name": "PPM2",
+          "entries": [
+            {
+              "device_alias": "TFA16_ENAB",
+              "role_name": "Write",
+              "register_ref": {
+                "slave_id": 3,
+                "address": 301,
+                "fc": 5
+              },
+              "key_display": "TFA16_ENAB"
+            },
+            {
+              "device_alias": "TFA16_ENAB",
+              "role_name": "Stat",
+              "register_ref": {
+                "slave_id": 3,
+                "address": 301,
+                "fc": 2
+              },
+              "key_display": "TFA16_ENAB"
+            },
+            {
+              "device_alias": "TFA16_ENAB",
+              "role_name": "Keys",
+              "register_ref": null,
+              "key_display": "TFA16_ENAB"
+            }
+          ]
+        },
+        {
+          "name": "Valve3",
+          "entries": [
+            {
+              "device_alias": "TFA17_Act",
+              "role_name": "Write",
+              "register_ref": {
+                "slave_id": 5,
+                "address": 4066,
+                "fc": 6
+              },
+              "key_display": "TFA17_Act"
+            },
+            {
+              "device_alias": "TFA17_Act",
+              "role_name": "Stat",
+              "register_ref": {
+                "slave_id": 5,
+                "address": 1561,
+                "fc": 3
+              },
+              "key_display": "TFA17_Act"
+            },
+            {
+              "device_alias": "TFA17_Act",
+              "role_name": "Keys",
+              "register_ref": null,
+              "key_display": "TFA17_Act"
+            },
+            {
+              "device_alias": "TFA17_FAN",
+              "role_name": "Write",
+              "register_ref": {
+                "slave_id": 5,
+                "address": 4067,
+                "fc": 6
+              },
+              "key_display": "TFA17_FAN"
+            },
+            {
+              "device_alias": "TFA17_FAN",
+              "role_name": "Stat",
+              "register_ref": {
+                "slave_id": 5,
+                "address": 4067,
+                "fc": 2
+              },
+              "key_display": "TFA17_FAN"
+            },
+            {
+              "device_alias": "TFA17_FAN",
+              "role_name": "Keys",
+              "register_ref": null,
+              "key_display": "TFA17_FAN"
+            }
+          ]
+        },
+        {
+          "name": "PPM3",
+          "entries": [
+            {
+              "device_alias": "TFA17_ENAB",
+              "role_name": "Write",
+              "register_ref": {
+                "slave_id": 5,
+                "address": 301,
+                "fc": 5
+              },
+              "key_display": "TFA17_ENAB"
+            },
+            {
+              "device_alias": "TFA17_ENAB",
+              "role_name": "Stat",
+              "register_ref": {
+                "slave_id": 5,
+                "address": 301,
+                "fc": 2
+              },
+              "key_display": "TFA17_ENAB"
+            },
+            {
+              "device_alias": "TFA17_ENAB",
+              "role_name": "Keys",
+              "register_ref": null,
+              "key_display": "TFA17_ENAB"
+            }
+          ]
+        }
+      ],
+      "lbi_table": [],
+      "action_commands": [
+        {
+          "aid": 1,
+          "aval_match": "Aval",
+          "func_type": "Val_Set",
+          "comment": "TFA15 Valve position 0-100%",
+          "cluster_name": "Valve1",
+          "device_alias": "TFA15_Act",
+          "write_role": "Write",
+          "fb_role": "Stat",
+          "value_expr": "Aval",
+          "expected_expr": "Aval",
+          "nvs_key": "",
+          "lbi_expr": "",
+          "custom_expr": "",
+          "has_scaling": true,
+          "scale_in_min": 0.0,
+          "scale_in_max": 100.0,
+          "scale_out_min": 0.0,
+          "scale_out_max": 1000.0
+        },
+        {
+          "aid": 2,
+          "aval_match": "Aval",
+          "func_type": "Val_Set",
+          "comment": "TFA15 FAN speed 0-100%",
+          "cluster_name": "Valve1",
+          "device_alias": "TFA15_FAN",
+          "write_role": "Write",
+          "fb_role": "Stat",
+          "value_expr": "Aval",
+          "expected_expr": "Aval",
+          "nvs_key": "",
+          "lbi_expr": "",
+          "custom_expr": "",
+          "has_scaling": true,
+          "scale_in_min": 0.0,
+          "scale_in_max": 100.0,
+          "scale_out_min": 0.0,
+          "scale_out_max": 1000.0
+        },
+        {
+          "aid": 3,
+          "aval_match": "1",
+          "func_type": "CntrlDev4",
+          "comment": "TFA15 ENAB ON",
+          "cluster_name": "PPM1",
+          "device_alias": "TFA15_ENAB",
+          "write_role": "Write",
+          "fb_role": "Stat",
+          "value_expr": "ON",
+          "expected_expr": "ON",
+          "nvs_key": "",
+          "lbi_expr": "",
+          "custom_expr": "",
+          "has_scaling": false,
+          "scale_in_min": 0.0,
+          "scale_in_max": 100.0,
+          "scale_out_min": 0.0,
+          "scale_out_max": 1000.0
+        },
+        {
+          "aid": 3,
+          "aval_match": "0",
+          "func_type": "CntrlDev4",
+          "comment": "TFA15 ENAB OFF",
+          "cluster_name": "PPM1",
+          "device_alias": "TFA15_ENAB",
+          "write_role": "Write",
+          "fb_role": "Stat",
+          "value_expr": "OFF",
+          "expected_expr": "OFF",
+          "nvs_key": "",
+          "lbi_expr": "",
+          "custom_expr": "",
+          "has_scaling": false,
+          "scale_in_min": 0.0,
+          "scale_in_max": 100.0,
+          "scale_out_min": 0.0,
+          "scale_out_max": 1000.0
+        },
+        {
+          "aid": 4,
+          "aval_match": "Aval",
+          "func_type": "Val_Set",
+          "comment": "TFA16 Valve position 0-100%",
+          "cluster_name": "Valve2",
+          "device_alias": "TFA16_Act",
+          "write_role": "Write",
+          "fb_role": "Stat",
+          "value_expr": "Aval",
+          "expected_expr": "Aval",
+          "nvs_key": "",
+          "lbi_expr": "",
+          "custom_expr": "",
+          "has_scaling": true,
+          "scale_in_min": 0.0,
+          "scale_in_max": 100.0,
+          "scale_out_min": 0.0,
+          "scale_out_max": 1000.0
+        },
+        {
+          "aid": 5,
+          "aval_match": "Aval",
+          "func_type": "Val_Set",
+          "comment": "TFA16 FAN speed 0-100%",
+          "cluster_name": "Valve2",
+          "device_alias": "TFA16_FAN",
+          "write_role": "Write",
+          "fb_role": "Stat",
+          "value_expr": "Aval",
+          "expected_expr": "Aval",
+          "nvs_key": "",
+          "lbi_expr": "",
+          "custom_expr": "",
+          "has_scaling": true,
+          "scale_in_min": 0.0,
+          "scale_in_max": 100.0,
+          "scale_out_min": 0.0,
+          "scale_out_max": 1000.0
+        },
+        {
+          "aid": 6,
+          "aval_match": "1",
+          "func_type": "CntrlDev4",
+          "comment": "TFA16 ENAB ON",
+          "cluster_name": "PPM2",
+          "device_alias": "TFA16_ENAB",
+          "write_role": "Write",
+          "fb_role": "Stat",
+          "value_expr": "ON",
+          "expected_expr": "ON",
+          "nvs_key": "",
+          "lbi_expr": "",
+          "custom_expr": "",
+          "has_scaling": false,
+          "scale_in_min": 0.0,
+          "scale_in_max": 100.0,
+          "scale_out_min": 0.0,
+          "scale_out_max": 1000.0
+        },
+        {
+          "aid": 6,
+          "aval_match": "0",
+          "func_type": "CntrlDev4",
+          "comment": "TFA16 ENAB OFF",
+          "cluster_name": "PPM2",
+          "device_alias": "TFA16_ENAB",
+          "write_role": "Write",
+          "fb_role": "Stat",
+          "value_expr": "OFF",
+          "expected_expr": "OFF",
+          "nvs_key": "",
+          "lbi_expr": "",
+          "custom_expr": "",
+          "has_scaling": false,
+          "scale_in_min": 0.0,
+          "scale_in_max": 100.0,
+          "scale_out_min": 0.0,
+          "scale_out_max": 1000.0
+        },
+        {
+          "aid": 7,
+          "aval_match": "Aval",
+          "func_type": "Val_Set",
+          "comment": "TFA17 Valve position 0-100%",
+          "cluster_name": "Valve3",
+          "device_alias": "TFA17_Act",
+          "write_role": "Write",
+          "fb_role": "Stat",
+          "value_expr": "Aval",
+          "expected_expr": "Aval",
+          "nvs_key": "",
+          "lbi_expr": "",
+          "custom_expr": "",
+          "has_scaling": true,
+          "scale_in_min": 0.0,
+          "scale_in_max": 100.0,
+          "scale_out_min": 0.0,
+          "scale_out_max": 1000.0
+        },
+        {
+          "aid": 8,
+          "aval_match": "Aval",
+          "func_type": "Val_Set",
+          "comment": "TFA17 FAN speed 0-100%",
+          "cluster_name": "Valve3",
+          "device_alias": "TFA17_FAN",
+          "write_role": "Write",
+          "fb_role": "Stat",
+          "value_expr": "Aval",
+          "expected_expr": "Aval",
+          "nvs_key": "",
+          "lbi_expr": "",
+          "custom_expr": "",
+          "has_scaling": true,
+          "scale_in_min": 0.0,
+          "scale_in_max": 100.0,
+          "scale_out_min": 0.0,
+          "scale_out_max": 1000.0
+        },
+        {
+          "aid": 9,
+          "aval_match": "1",
+          "func_type": "CntrlDev4",
+          "comment": "TFA17 ENAB ON",
+          "cluster_name": "PPM3",
+          "device_alias": "TFA17_ENAB",
+          "write_role": "Write",
+          "fb_role": "Stat",
+          "value_expr": "ON",
+          "expected_expr": "ON",
+          "nvs_key": "",
+          "lbi_expr": "",
+          "custom_expr": "",
+          "has_scaling": false,
+          "scale_in_min": 0.0,
+          "scale_in_max": 100.0,
+          "scale_out_min": 0.0,
+          "scale_out_max": 1000.0
+        },
+        {
+          "aid": 9,
+          "aval_match": "0",
+          "func_type": "CntrlDev4",
+          "comment": "TFA17 ENAB OFF",
+          "cluster_name": "PPM3",
+          "device_alias": "TFA17_ENAB",
+          "write_role": "Write",
+          "fb_role": "Stat",
+          "value_expr": "OFF",
+          "expected_expr": "OFF",
+          "nvs_key": "",
+          "lbi_expr": "",
+          "custom_expr": "",
+          "has_scaling": false,
+          "scale_in_min": 0.0,
+          "scale_in_max": 100.0,
+          "scale_out_min": 0.0,
+          "scale_out_max": 1000.0
+        }
+      ],
+      "nvs_init_reads": [],
+      "valve_nvs_key": "VALR",
+      "valve_cluster": "Valve1",
+      "valve_device": "TFA15_Act"
+    }
+  }
+}

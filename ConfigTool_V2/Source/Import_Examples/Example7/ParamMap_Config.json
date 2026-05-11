@@ -1,0 +1,29 @@
+{
+  "P1": { "NLB": 1, "NLBIN": 1, "NMD": 7 },
+  "P2": { "LBI": [1], "MPI": [1], "RPCI": [] },
+  "P3": {
+    "MDI": [1, 2, 3, 4, 5, 6, 7],
+    "MPI": [1, 2, 3, 4, 5, 6, 7],
+    "LBI": []
+  },
+  "JKY": {
+    "JKA": [
+      [
+        "VFD",
+        ["STAT", "ALARM", "FREQ", "VOLT", "CURR", "PWR", "RNHR"],
+        ["CW PMP VFD1"]
+      ]
+    ]
+  },
+  "JKC": { "JKH": "CPM", "EKS": "DKEY" },
+  "NTC": {
+    "IP": "18.191.222.62",
+    "PT": "1234",
+    "CI": "Lucas",
+    "SN": [1],
+    "MI": ["VFD01"],
+    "MT": ["VFD"],
+    "DI": "GW01"
+  },
+  "MST": { "PRF": 0 }
+}
